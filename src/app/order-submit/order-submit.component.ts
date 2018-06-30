@@ -12,6 +12,9 @@ import {NgbModal, ModalDismissReasons} from '@ng-bootstrap/ng-bootstrap';
 })
 export class OrderSubmitComponent implements OnInit {
   closeResult: string;
+  user_name:any;
+  user_email:any;
+  user_phone:any;
   constructor(
     private goHome: Router,
     private modalService: NgbModal

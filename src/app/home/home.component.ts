@@ -15,6 +15,7 @@ export class HomeComponent implements OnInit {
   checkData:Array<any>;
   selectedProduct:Array<any>;
   mode:boolean;
+  search:any;
   constructor(
     private data: GetDataService,
     private parsData: ParsingDataService
