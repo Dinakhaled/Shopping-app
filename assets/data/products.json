@@ -2,7 +2,7 @@
     {
     "id":"1",
     "itemNum":"1",
-     "img":"../../assets/images/1.jpg",
+     "img":"../assets/images/1.jpg",
      "name":"Lenovo",
      "price":"$650",
      "category":"Electronics",
