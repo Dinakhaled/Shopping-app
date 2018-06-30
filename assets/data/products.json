@@ -1,0 +1,101 @@
+[
+    {
+    "id":"1",
+    "itemNum":"1",
+     "img":"../../assets/images/1.jpg",
+     "name":"Lenovo",
+     "price":"$650",
+     "category":"Electronics",
+     "Description":"Lenovo, ipsum dolor sit amet consectetur adipisicing elit. Vero alias a adipisc fugit praesentium asperiores similique cupiditate nostrum consequuntur esse delectus voluptates molestiae eos libero aspernatur, atque consequatur quisquam totam.",
+     "shortDes":"apple, ipsum dolor sit amet consectetur adipisicing elit.",
+     "button":"Add To Cart"   
+    },
+    {
+     "id":"2",
+     "itemNum":"1",
+     "img":"../../assets/images/2.jpg",
+     "name":"Philips",
+     "price":"$260",
+     "category":"Electronics",
+     "Description":"Philips, ipsum dolor sit amet consectetur adipisicing elit. Vero alias a adipisc fugit praesentium asperiores similique cupiditate nostrum consequuntur esse delectus voluptates molestiae eos libero aspernatur, atque consequatur quisquam totam.",
+     "shortDes":"Lenovo, ipsum dolor sit amet consectetur adipisicing elit.",
+     "button":"Add To Cart"   
+    },
+    {
+    "id":"3",
+    "itemNum":"1",
+     "img":"../../assets/images/3.jpg",
+     "name":"Sony",
+     "price":"$850",
+     "category":"Electronics",
+     "Description":"Sony, ipsum dolor sit amet consectetur adipisicing elit. Vero alias a adipisc fugit praesentium asperiores similique cupiditate nostrum consequuntur esse delectus voluptates molestiae eos libero aspernatur, atque consequatur quisquam totam.",
+     "shortDes":"HP, ipsum dolor sit amet consectetur adipisicing elit.",
+     "button":"Add To Cart"   
+    },
+    {
+     "id":"4",
+     "itemNum":"1",
+     "img":"../../assets/images/4.jpg",
+     "name":"Xiaomi",
+     "price":"$2000",
+     "category":"Electronics",
+     "Description":"Xiaomi, ipsum dolor sit amet consectetur adipisicing elit. Vero alias a adipisc fugit praesentium asperiores similique cupiditate nostrum consequuntur esse delectus voluptates molestiae eos libero aspernatur, atque consequatur quisquam totam.",
+     "shortDes":"Acer, ipsum dolor sit amet consectetur adipisicing elit.",
+     "button":"Add To Cart"   
+    },
+    {
+     "id":"5",
+     "itemNum":"1",
+     "img":"../../assets/images/5.jpg",
+     "name":"Samsung",
+     "price":"$3200",
+     "category":"Electronics",
+     "Description":"Samsung, ipsum dolor sit amet consectetur adipisicing elit. Vero alias a adipisc fugit praesentium asperiores similique cupiditate nostrum consequuntur esse delectus voluptates molestiae eos libero aspernatur, atque consequatur quisquam totam.",
+     "shortDes":"HP-16RAM, ipsum dolor sit amet consectetur adipisicing elit.",
+     "button":"Add To Cart"   
+    },
+    {
+     "id":"6",
+     "itemNum":"1",
+     "img":"../../assets/images/6.jpg",
+     "name":"Motorola",
+     "price":"$400",
+     "category":"Electronics",
+     "Description":"Motorola, ipsum dolor sit amet consectetur adipisicing elit. Vero alias a adipisc fugit praesentium asperiores similique cupiditate nostrum consequuntur esse delectus voluptates molestiae eos libero aspernatur, atque consequatur quisquam totam.",
+     "shortDes":"Asus, ipsum dolor sit amet consectetur adipisicing elit.",
+     "button":"Add To Cart"   
+    },
+    {
+     "id":"7",
+     "itemNum":"1",
+     "img":"../../assets/images/7.jpg",
+     "name":"Taplet",
+     "price":"$390",
+     "category":"Electronics",
+     "Description":"Taplet, ipsum dolor sit amet consectetur adipisicing elit. Vero alias a adipisc fugit praesentium asperiores similique cupiditate nostrum consequuntur esse delectus voluptates molestiae eos libero aspernatur, atque consequatur quisquam totam.",
+     "shortDes":"Dell, ipsum dolor sit amet consectetur adipisicing elit.",
+     "button":"Add To Cart"   
+    },
+    {
+     "id":"8",
+     "itemNum":"1",
+     "img":"../../assets/images/8.jpg",
+     "name":"Remax",
+     "price":"$800",
+     "category":"Electronics",
+     "Description":"Remax, ipsum dolor sit amet consectetur adipisicing elit. Vero alias a adipisc fugit praesentium asperiores similique cupiditate nostrum consequuntur esse delectus voluptates molestiae eos libero aspernatur, atque consequatur quisquam totam.",
+     "shortDes":"Microsoft, ipsum dolor sit amet consectetur adipisicing elit.",
+     "button":"Add To Cart"   
+    },
+    {
+     "id":"9",
+     "itemNum":"1",
+     "img":"../../assets/images/9.jpg",
+     "name":"LG-TV",
+     "price":"$690",
+     "category":"Electronics",
+     "Description":"LG-TV, ipsum dolor sit amet consectetur adipisicing elit. Vero alias a adipisc fugit praesentium asperiores similique cupiditate nostrum consequuntur esse delectus voluptates molestiae eos libero aspernatur, atque consequatur quisquam totam.",
+     "shortDes":"HP-8RAM, ipsum dolor sit amet consectetur adipisicing elit.",
+     "button":"Add To Cart"   
+    }
+]
