@@ -1,0 +1,12 @@
+@mixin forShadow($bs){
+	-webkit-box-shadow: ($bs); 
+	-moz-box-shadow: ($bs);
+	-o-box-shadow: ($bs);
+	box-shadow: ($bs);
+}
+@mixin transition-hover($tR){
+	-webkit-transition: ($tR); 
+	-moz-transition: ($tR);
+	-o-transition: ($tR);
+	transition: ($tR);
+}

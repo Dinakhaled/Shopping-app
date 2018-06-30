@@ -1,0 +1,59 @@
+/* ============Imports============ */
+@import '../../scss/general';
+@import '../../scss/variables';
+@import '../../scss/mixin';
+
+/* ============Nav============ */
+nav{
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+}
+.nav-bgcolor{
+    background-color: $white;
+    @include forShadow(0px 0px 15px 4px #f1f1f1);
+
+    a{
+        color:$black;
+    }
+}
+.user-dropdown{
+    border: none;
+    &:hover{
+        background: transparent;
+    }
+}
+.drop-custom, .drop-custom:active{
+    background: transparent;
+    border: none;
+}
+.drop-item-cust:hover{
+    background: $primaryColor;
+    color: $white !important;
+}
+
+.dropdown-toggle::after{
+    display: none;
+}
+
+.user-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: url("../../assets/images/user.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+i{
+    font-size: 25px;
+    color: $black;
+    padding: 3px;
+    border-radius: 50%;
+  
+}
+.norification{
+    background: $primaryColor;
+    border-radius: 50%;
+    width: 20px;
+    display: inline-block;
+}

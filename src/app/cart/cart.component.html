@@ -1,0 +1,75 @@
+<!-- ============Products Table============ -->
+<section class="cart-table ">
+  <div class="container">
+    <!-- ============Cart Is Empty============ -->
+    <div *ngIf="checkCart == false" class="text-center">
+      <i class="icon-opencart text-center text-muted cart-empty"></i>
+      <h1 class="text-center pb-3"> Your Cart Is Empty! </h1>
+      <button class="btn">
+        <a routerLink=""> Shopping Now</a>
+      </button>
+    </div>
+    <div class="row bg-light py-2" *ngIf="checkCart == true">
+
+      <!-- ============Table Title============ -->
+      <div class="col-6">
+        <h5>product</h5>
+      </div>
+
+      <!-- ============Price============ -->
+      <div class="col-2 text-center">
+        <h5 class="text-center">Price</h5>
+      </div>
+      <!-- ============Number Of Item============ -->
+      <div class="col-2 text-center">
+        <h5>Number Of Item</h5>
+      </div>
+      <!-- ============Delete============ -->
+      <div class="col-2 text-center">
+        <h5>Delete</h5>
+      </div>
+    </div>
+    <hr *ngIf="checkCart == true">
+
+    <!-- ============Main Content============ -->
+    <div class="content-item" *ngFor="let prop of cartProducts">
+      <div class="row align-items-center">
+        <!-- ============Products============ -->
+        <div class="col-6">
+          <div class="media">
+            <img width="160" height="60" class="mr-3 img-fluid" src="{{prop.img}}" alt="Generic placeholder image">
+            <div class="media-body align-self-center">
+              <h5 class="pb-2">{{prop.name}}</h5>
+              <p class="mb-0">{{prop.shortDes}}</p>
+            </div>
+          </div>
+        </div>
+        <!-- ============Price============ -->
+        <div class="col-2 text-center">
+          <h5 class="text-center">{{prop.price}}</h5>
+        </div>
+
+        <!-- ============Number Of Items============ -->
+        <div class="col-2 text-center">
+          <input type="number" class="w-50" min="1" name="num" [(ngModel)]="prop.itemNum" />
+          <br>
+          <!-- ============Validation Message============ -->
+          <span *ngIf="prop.itemNum < 0 || prop.itemNum == 0">Invalid Number</span>
+        </div>
+
+        <!-- ============Delte============ -->
+        <div class="col-2 text-center">
+          <i class="icon-trash delete-icon" (click)="deleteRecord(prop.id)"></i>
+        </div>
+      </div>
+      <hr>
+    </div>
+
+    <!-- ============Submit Order============ -->
+    <div class="text-center pt-3">
+      <button *ngIf="checkCart == true" class="btn">
+        <a routerLink="../Submit"> Submit Order</a>
+      </button>
+    </div>
+  </div>
+</section>

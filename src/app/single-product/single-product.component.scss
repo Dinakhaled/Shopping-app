@@ -1,0 +1,16 @@
+/* ============Imports============ */
+@import '../../scss/variables';
+@import '../../scss/general';
+
+/* ============Single Prodeuct============ */
+.single-product{
+    padding: 120px 0px;
+    button{
+        background: $primaryColor;
+        border:none;
+        &:hover{
+         background: $secondaryColor;
+        }
+    }
+}
+

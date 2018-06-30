@@ -1,0 +1,55 @@
+<header>
+  <!-- ============Navbar============ -->
+  <nav class="navbar navbar-expand-lg nav-bgcolor" id="top">
+    <div class="container">
+      <a routerLink="" class="navbar-brand" href="#">
+        <img src="../../assets/images/logo.png" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <div class="row">
+            <div class="col">
+              <!-- ============Cart Icon============ -->
+              <div ngbDropdown placement="bottom-right" class="d-inline-block ">
+                <button class="btn drop-custom user-dropdown" id="dropdownBasic1" ngbDropdownToggle>
+                  <div class="norification">
+                    <span>{{notification.length}}</span>
+                  </div>
+                  <i class="icon-opencart"></i>
+                </button>
+                <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                  <a class="dropdown-item drop-item-cust" routerLink="Cart">
+                    Cart View
+                  </a>
+                  <a class="dropdown-item drop-item-cust" routerLink="Submit">
+                    Order Submit
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ============User Icon============ -->
+          <div class="row">
+            <div class="col">
+              <div ngbDropdown placement="bottom-right" class="d-inline-block ">
+                <button class="btn drop-custom user-dropdown" id="dropdownBasic1" ngbDropdownToggle>
+                  <div class="user-img d-flex">
+                  </div>
+                </button>
+                <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                  <button class="dropdown-item drop-item-cust">Edit Profile</button>
+                  <button class="dropdown-item drop-item-cust">Sign Out</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>

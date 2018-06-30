@@ -1,0 +1,88 @@
+/* ============Imports============ */
+@import '../../scss/variables';
+@import '../../scss/general';
+
+/* ============Header============ */
+.jumbotron{
+    background: url('../../assets/images/header-bgw.png') 0% 0%/cover no-repeat fixed ;
+    height:100vh;
+    a{
+        background: $primaryColor;
+        border:none;
+    }
+    a.second-btn{
+        background: transparent;
+        border:1px solid $primaryColor;
+        color: $black;
+        &:hover{
+            background: $secondaryColor;
+            border-color: $secondaryColor;
+            color: $white;
+        }
+    }
+}
+
+/* ============Products============ */
+.products{
+    h2{
+        span{
+            border-bottom: 1px solid $primaryColor;
+        } 
+    }
+    .input-group{
+        span{
+            background: transparent;
+            border-left: none;    
+            border-color:#ced4da;                   
+        }
+        input{
+            border-right: none;
+            border-radius: 0px;         
+            &:focus{
+                border-color:#ced4da;
+                @include forShadow(none);
+            }
+        }
+    }
+    .card-deck{
+        .top-line{
+            border-bottom: 5px solid $primaryColor;
+            display: inline-block;
+            width: 0%;
+        }      
+        .card{
+            border: none;
+            @include forShadow(0px 0px 15px 4px #f1f1f1);     
+            border-radius: 0px; 
+            &:hover .top-line{
+                width: 100%;
+                @include transition-hover(all 0.5s ease-in-out)
+            }
+        }
+        a{
+            color: #000;
+            &:hover{
+                text-decoration: none;
+            }
+        }
+        
+    }
+    button{
+        background: $primaryColor;
+        &:hover{
+        background: $secondaryColor;
+            }
+        }
+    .grid-list{
+        label{
+            background: $secondaryColor;
+            color: $white;
+            border: none;
+            box-shadow: none;
+        }
+    }
+    .content-item{
+        background: $white;
+        @include forShadow(0px 0px 15px 4px #f1f1f1);            
+    }
+}

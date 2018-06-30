@@ -1,0 +1,68 @@
+<!-- ============Order Submit============ -->
+<section class="order-submit">
+  <div class="container">
+    <h2 class="text-center">
+      <span class="pb-2">Ord</span>er Submission</h2>
+    <form class="pt-5 pb-5" name="userData" #userData="ngForm" (ngSubmit)="userFunc(userData)" novalidate>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Address</label>
+        <input type="text" class="form-control" aria-describedby="emailHelp" name="user_name" [(ngModel)]="user_name" #user="ngModel"
+          required />
+
+        <!-- ============Validation Message============ -->
+        <div *ngIf="user.invalid && (user.dirty || user.touched)">
+          <div class="error-msg text-danger" *ngIf="user.errors.required">
+            This field is required
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Phone</label>
+        <input type="text" class="form-control" aria-describedby="emailHelp" name="user_phone" [(ngModel)]="user_phone" #phone="ngModel"
+          required />
+
+        <!-- ============Validation Message============ -->
+        <div *ngIf="phone.invalid && (phone.dirty || phone.touched)">
+          <div class="error-msg text-danger" *ngIf="phone.errors.required">
+            This field is required
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email</label>
+        <input type="email" class="form-control" aria-describedby="emailHelp" name="user_email" [(ngModel)]="user_email" #email="ngModel"
+          required />
+
+        <!-- ============Validation Message============ -->
+        <div *ngIf="email.invalid && (email.dirty || email.touched)">
+          <div class="error-msg text-danger" *ngIf="email.errors.required">
+            This field is required
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center">
+        <button class="btn btn-primary" (click)="open(Done)">Submit</button>
+      </div>
+
+      <!-- ============Modal============ -->
+      <ng-template #Done let-c="close" let-d="dismiss">
+        <div class="modal-header">
+          <h4 class="modal-title" *ngIf='userData.valid'>Success</h4>
+          <h4 class="modal-title" *ngIf='!userData.valid'>Submit Error</h4>
+          <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p *ngIf='!userData.valid'>Please Enter All Fields</p>
+          <p *ngIf='userData.valid'>Order Submitted</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn m-btn" (click)="c('Close click')">Close</button>
+        </div>
+      </ng-template>
+    </form>
+  </div>
+</section>
