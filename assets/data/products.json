@@ -13,7 +13,7 @@
     {
      "id":"2",
      "itemNum":"1",
-     "img":"../../assets/images/2.jpg",
+     "img":"../assets/images/2.jpg",
      "name":"Philips",
      "price":"$260",
      "category":"Electronics",
@@ -24,7 +24,7 @@
     {
     "id":"3",
     "itemNum":"1",
-     "img":"../../assets/images/3.jpg",
+     "img":"../assets/images/3.jpg",
      "name":"Sony",
      "price":"$850",
      "category":"Electronics",
@@ -35,7 +35,7 @@
     {
      "id":"4",
      "itemNum":"1",
-     "img":"../../assets/images/4.jpg",
+     "img":"../assets/images/4.jpg",
      "name":"Xiaomi",
      "price":"$2000",
      "category":"Electronics",
@@ -46,7 +46,7 @@
     {
      "id":"5",
      "itemNum":"1",
-     "img":"../../assets/images/5.jpg",
+     "img":"../assets/images/5.jpg",
      "name":"Samsung",
      "price":"$3200",
      "category":"Electronics",
@@ -57,7 +57,7 @@
     {
      "id":"6",
      "itemNum":"1",
-     "img":"../../assets/images/6.jpg",
+     "img":"../assets/images/6.jpg",
      "name":"Motorola",
      "price":"$400",
      "category":"Electronics",
@@ -68,7 +68,7 @@
     {
      "id":"7",
      "itemNum":"1",
-     "img":"../../assets/images/7.jpg",
+     "img":"../assets/images/7.jpg",
      "name":"Taplet",
      "price":"$390",
      "category":"Electronics",
@@ -79,7 +79,7 @@
     {
      "id":"8",
      "itemNum":"1",
-     "img":"../../assets/images/8.jpg",
+     "img":"../assets/images/8.jpg",
      "name":"Remax",
      "price":"$800",
      "category":"Electronics",
@@ -90,7 +90,7 @@
     {
      "id":"9",
      "itemNum":"1",
-     "img":"../../assets/images/9.jpg",
+     "img":"../assets/images/9.jpg",
      "name":"LG-TV",
      "price":"$690",
      "category":"Electronics",
